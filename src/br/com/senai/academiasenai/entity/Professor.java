@@ -6,6 +6,7 @@ public class Professor {
 
 	private Integer id;
 	private String nomeCompleto;
+	private LocalDate dataDeCasamento;
 
 	public Integer getId() {
 		return id;
@@ -23,6 +24,12 @@ public class Professor {
 		this.nomeCompleto = nomeCompleto;
 	}
 
+	public LocalDate getDataDeCasamento() {
+		return dataDeCasamento;
+	}
 
+	public void setDataDeCasamento(LocalDate dataDeCasamento) {
+		this.dataDeCasamento = dataDeCasamento;
+	}
 
 }
